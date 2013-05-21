@@ -8,6 +8,8 @@ namespace Builder
         private static readonly Dictionary<string, Func<object>> defaults = new Dictionary<string, Func<object>>
             {
                 // your types here
+                //{TypeKey<Person>(), () => new Person("Peter", 8)},
+                //{"ANotValidPerson", () => new Person("Peter", -2)}
             };
 
         public static T A<T>()
