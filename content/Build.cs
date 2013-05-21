@@ -7,10 +7,7 @@ namespace Builder
     {
         private static readonly Dictionary<string, Func<object>> defaults = new Dictionary<string, Func<object>>
             {
-                {TypeKey<LetterRecipient>(), () => new LetterRecipient(Guid.NewGuid(), Guid.NewGuid())},
-                {TypeKey<LettersRequest>(), () => new LettersRequest("COLHOUSE\\sulimc", "LXX", new [] {A<LetterRecipient>()}, "ACQ1", OffsetFrom(new DateTime(2013,5,21)))},
-                {TypeKey<RequestLetter.LetterRecipientMessage>(), () => new RequestLetter.LetterRecipientMessage(Guid.NewGuid(), Guid.NewGuid())},
-                {TypeKey<RequestLetter>(), () => new RequestLetter("COLHOUSE\\sulimc", "LXX", new [] {A<RequestLetter.LetterRecipientMessage>()}, "ACQ1", OffsetFrom(new DateTime(2013,5,21)))}
+                // your types here
             };
 
         public static T A<T>()
