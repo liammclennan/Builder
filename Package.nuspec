@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Builder</id>
+    <version>1.0.0</version>
+    <authors>Liam McLennan</authors>
+    <owners>liammclennan</owners>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/liammclennan/giv.n</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Object builder</description>
+    <releaseNotes>First release.</releaseNotes>
+    <copyright>Copyright 2013</copyright>
+    <tags>Testing</tags>
+  </metadata>
+</package>
